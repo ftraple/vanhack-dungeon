@@ -18,7 +18,7 @@ function _init()
  itm_maxf=explodeval("3,4,5,6,7,8,3,4,5,6,7,8,8,8,8,8,8,8,4,6,7,8")
  itm_desc=explode(",,,,,,,,,,,, heals, heals a lot, increases hp, stuns, is cursed, is blessed,,,,")
 
- mob_name=explode("player,tiago-slime,lucas-melt,anybal-shoggoth,breno-mantisman,joao-scorpion,ghost-jose,robson-golem,ilya-drake")
+ mob_name=explode("player,camislime,fernamelt,jushoggoth,bitantisman,mariscorpion,alighost,dezagolem,ludrake")
  mob_ani=explodeval("240,192,196,200,204,208,212,216,220")
  mob_atk=explodeval("1,1,2,1,2,3,3,5,5")
  mob_hp=explodeval("5,1,2,3,3,4,5,14,8")
@@ -52,7 +52,7 @@ function _init()
  "top menu",
  "profile review",
  "juju goddess",
- " "," "}
+ "0","0","0","0"}
 
  debug={}
  startgame()
@@ -371,7 +371,7 @@ function draw_gover()
  spr(gover_spr,gover_x,30,gover_w,2)
  if not win then
   --print("killed by a "..st_killer,28,43,6)
-  print("killed by a "..st_killer,15,43,6)
+  print("killed by a "..st_killer,25,43,6)
  end
  palt()
  color(5)
